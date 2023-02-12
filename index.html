@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet Carte</title>
+    <link rel="stylesheet" href="ASSETS/css/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/2aeb1c8d9e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <div class="divContainer">
+      <section class="section">
+        <!--div for map-->
+        <div id="map"></div>
+      </section>
+      <!--div for data-->
+      <div class="favData"></div>
+      <!--dive for bondeu-->
+      <div class="favMenu"></div>
+      <!--card and favroties part-->
+      <section class="carte">
+        <button class="btnCart">
+          <a href="index.html"><i class="fa-solid fa-map-location-dot"></i>Carte</a
+          >
+        </button>
+        <button class="btnFav">
+          <a href="favoris.html"><i class="fa-solid fa-heart"></i>Favoris</a>
+        </button>
+      </section>
+    </div>
+    <script src="ASSETS/js/Favoris.js"></script>
+    <script src="ASSETS/js/main.js"></script>
+  </body>
+</html>
